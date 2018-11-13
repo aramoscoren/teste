@@ -1,0 +1,15 @@
+{
+  "background_color": "white",
+  "description": "Coren-SP",
+  "display": "fullscreen",
+  "icons": [
+    {
+      "src": "logo.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    }
+  ],
+  "name": "Coren-SP",
+  "short_name": "Coren-SP",
+  "start_url": "https://aramoscoren.github.io/teste/index.html"
+}
