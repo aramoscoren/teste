@@ -6,7 +6,13 @@
 			PWA
 		-->
 		<link rel="manifest" href="https://aramoscoren.github.io/teste/manifest.webmanifest">
-		<script src="https://aramoscoren.github.io/teste/index.js" defer></script>
+		<script>
+if('serviceWorker' in navigator) {
+  navigator.serviceWorker
+           .register('/sw.js')
+           .then(function() { console.log("Service Worker Registered"); });
+}
+</script>
 
 
 
