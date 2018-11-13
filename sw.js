@@ -1,4 +1,4 @@
-//importScripts('/cache-polyfill.js');
+importScripts('https://aramoscoren.github.io/teste/serviceworker-cache-polyfill.js');
 
 self.addEventListener('install', function(e) {
  e.waitUntil(
